@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-Very simple HTTP server in python for logging requests
-Usage::
-    ./server.py [<port>]
-"""
+
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
 
